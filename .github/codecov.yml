@@ -1,0 +1,18 @@
+codecov:
+  branch: main
+  require_ci_to_pass: false
+
+comment: false
+
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 1%
+        only_pulls: false
+    patch:
+      default:
+        target: auto
+        threshold: 1%
+        only_pulls: true
